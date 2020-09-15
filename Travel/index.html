@@ -22,32 +22,184 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 50px;
+    height: 55px;
     background-color: white;
     display:flex;
     box-shadow: 0px 10px 10px rgba(0, 0, 0,0.25);
+    padding-top: 13px;
 }
-        .hadr i{
-            color: rgb(233, 41, 41);
-            height: 20px;
-            width: 20px;
-            font-size: 50px;
-        }
-       .nvgt
+         .hvr a
         {
-    text-align: center;
-    font-style: bold;
-    padding: 8px 20px 0px 20px;
-    font-size: 30px;
-    color: rgb(233, 41, 41);
-}
+            text-decoration: none;
+            font-style: bold;
+            font-size: 25px;
+            color: rgb(233, 41, 41);
+            padding: 15px;
+        }
+        .hvr a:hover
+        {
+            color: white;
+            background-color: rgb(233, 41, 41);
+            
+        } 
+        .frst
+        {
+            margin:auto;
+            margin-top: 56px;
+            border: 2px solid black;
+            width: 95%;
+            height: 700px;
+            background-image: url("https://www.w3schools.com/w3images/london2.jpg");
+        }
+        .scnd
+        {
+            background-color: black;
+            width: 60%;
+            height: 40px;
+            margin: auto;
+            margin-top: 10%;
+            display: flex;
+            color: white;
+        }
+        .thrd
+        {
+            background-color:white;
+            width: 60%;
+            height: 200px;
+            margin: auto;
+        }
+        .scnd li
+        {
+            list-style-type: none;
+            padding: 8px 12px 0px 13px;
+        }
+        .scnd i
+        {
+            padding-right: 5px;
+        }
+        .thrd input
+        {
+            height: 35px;
+            width: 45%;
+            margin-left: 20px;
+            font-size: 20px;
+            
+        }
+        .thrd label
+        {
+            
+            margin: 0px 370px 0px 20px;
+            
+        }
+        .thrd button
+        {
+            background-color: gray;
+            color: white;
+            height: 35px;
+            width: 170px;
+            margin-left: 20px;
+            margin-top: 15px;
+            font-size: 15px;
+        }
+        .scnd li:hover
+        {
+            background-color: lightgray !important;
+            color: black !important;
+        }
+        .frth
+        {
+            width: 65%;
+            height: 600px;
+            margin: auto;
+        }
+        .frth_frst
+        {
+            background-image: url("https://www.w3schools.com/w3images/cinqueterre.jpg");
+            width: 45%;
+            margin-top: 10px;
+            color: white;
+            padding:420px 0px 0px 10px;
+            font-size: 25px;
+
+        }
+        .frth_scnd
+        {
+            width:45%;
+            margin: 10px 0px 0px 20px;
+        }
+        .frth_scnd img
+        {
+            width: 250px;
+            height: 220px;
+            margin-right: 20px;
+            font-size: 30px;
+
+        }
+        .frth_scnd span
+        {
+            position: absolute;
+             left: 0;  
+             font-size: 25px;
+             color: white;
+        }
+        .fifth
+        {
+            display: flex;
+        }
+        .fifth div
+        {
+            width: 45%;
+        }
     </style>
 </head>
 <body>
     <div class="hadr">
-        <div><a href="" target=""><i class="fas fa-map-marker-alt"></i></a></div>
-        <div class="nvgt">Logo</div>
+    <ul class="hvr">
+    <li ><a href="" target=""><i class="fas fa-map-marker-alt"></i> Logo</a></li>
+    </ul>
+</div>
+
+<div class="frst"> 
+    <div class="scnd">
+        <li style="background-color: rgb(233, 41, 41); color: white;"><i class="fas fa-plane"></i>Flight</li>
+        <li><i class="fas fa-hotel"></i>Hotel</li>
+        <li><i class="fas fa-car"></i>Rental</li>
     </div>
+    <div class="thrd">
+        <p style="font-size: 25px; padding: 20px 0px 10px 10px;">Travel the world with us</p>
+        <label>From</label> <label>To</label><br>
+        <input type="text" placeholder="Departing from">
+        <input type="text" placeholder="Arriving at"><br>
+        <button>Search and find dates</button>
+    </div></div>
+
+    <div class="frth">
+        <p style="padding-top: 20px;"><h1>Good Offers Right Now</h1><br>Up to 50% discount.</p>
+        <div style="display: flex;">
+        <div class="frth_frst">Cinque Terre</div>
+
+        <div class="frth_scnd">
+            <div style="display: flex;">
+        <div><img src="https://www.w3schools.com/w3images/newyork2.jpg"><span style="padding:190px 0px 0px 765px;" >New York</span></div>
+        <div><img src="https://www.w3schools.com/w3images/sanfran.jpg"><span style="padding:190px 0px 0px 1035px;" >San Francisco</span></div>
+            </div>
+        <div style="display: flex;">
+        <div><img src="https://www.w3schools.com/w3images/pisa.jpg"><span style="padding:190px 0px 0px 765px;" >Pisa</span></div>
+        <div><img src="https://www.w3schools.com/w3images/paris.jpg"><span style="padding:190px 0px 0px 1035px;" >Paris</span></div>        
+        </div></div></div>
+    </div>
+
+    <div class="frth">
+        <p style="padding-top: 20px;"><h1>Explore Nature</h1><br>Travel with us and see nature at its finest.</p>
+        <!-- <div style="display: flex;">
+        <div class="frth_frst">Cinque Terre</div> -->
+
+        <div class="fifth">
+        <div><img src="https://www.w3schools.com/w3images/ocean2.jpg"><span style="padding:190px 0px 0px 765px;" >New York</span></div>
+        <div><img src="https://www.w3schools.com/w3images/mountains2.jpg"><span style="padding:190px 0px 0px 1035px;" >San Francisco</span></div>
+            </div>       
+        </div>
+    
     
 </body>
 </html>
