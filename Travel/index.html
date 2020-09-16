@@ -18,7 +18,6 @@
     }
 .hadr
 {
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -45,7 +44,6 @@
         .frst
         {
             margin:auto;
-            margin-top: 56px;
             border: 2px solid black;
             width: 95%;
             height: 700px;
@@ -186,6 +184,54 @@
             background-color:lightgrey;
             color: black;
         }
+        .sixth
+        {
+            opacity: 0.5;
+            background-color: black;
+            width: 65%;
+            height: 250px;
+            margin: auto;
+            margin-top: 40px;
+            color: white;
+            padding: 20px;
+        
+        }
+        .sixth:hover
+        {
+            opacity: 1;
+        }
+        .svnth
+        {
+            width: 65%;
+            height: 430px;
+            margin: auto;
+            margin-top: 45px;
+        }
+        .svnth i {
+            padding-right:20px;
+        }
+        .svnth p
+        {
+            padding: 5px;
+        }
+        .svnth input
+        {
+            height: 50px;
+            width: 100%;
+            margin-top: 20px;
+            padding: 10px;
+            font-size: 15px;
+        }
+        .ftr i
+        {
+        padding: 5px;
+        font-size: 30px;
+        color: rgb(71, 70, 70);
+        }
+        .ftr i:hover
+        {
+        color: grey;
+        }
     </style>
 </head>
 <body>
@@ -215,29 +261,55 @@
         <div class="frth_frst">Cinque Terre</div>
 
         <div class="frth_scnd">
-            <div style="display: flex;">
+        <div style="display: flex;">
         <div><img src="https://www.w3schools.com/w3images/newyork2.jpg"><span style="padding:190px 0px 0px 765px;" >New York</span></div>
         <div><img src="https://www.w3schools.com/w3images/sanfran.jpg"><span style="padding:190px 0px 0px 1035px;" >San Francisco</span></div>
-            </div>
+        </div>
         <div style="display: flex;">
         <div><img src="https://www.w3schools.com/w3images/pisa.jpg"><span style="padding:190px 0px 0px 765px;" >Pisa</span></div>
         <div><img src="https://www.w3schools.com/w3images/paris.jpg"><span style="padding:190px 0px 0px 1035px;" >Paris</span></div>        
         </div></div></div>
-    </div>
+        </div>
 
     <div class="frth">
         <p style="padding-top: 20px;"><h1>Explore Nature</h1><br>Travel with us and see nature at its finest.</p>
-        <!-- <div style="display: flex;">
-        <div class="frth_frst">Cinque Terre</div> -->
-
         <div class="fifth">
         <div class="fifth_one"><img src="https://www.w3schools.com/w3images/ocean2.jpg"><h1>West Coast, Norway</h1><br><h2 style="color: lightslategray;">Roundtrip from $79</h2>
-            <br><h2>Praesent tincidunt sed tellus ut rutrum sed vitae justo</h2> <br> <label>Buy Tickets</label></div>
-
+        <br><h2>Praesent tincidunt sed tellus ut rutrum sed vitae justo</h2> <br> <label>Buy Tickets</label></div>
         <div class="fifth_two"><img src="https://www.w3schools.com/w3images/mountains2.jpg"><h1>Mountains, Austria</h1><br><h2 style="color: lightslategray;">One-way from $39</h2>
-<br><h2>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</h2> <br> <label>Buy Tickets</label></div>
-            </div>       
+        <br><h2>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</h2> <br> <label>Buy Tickets</label></div> </div></div>
+
+        <div class="sixth">
+            <h1>Get the best offers first!</h1><br>
+            <p>Join our newsletter.</p><br>
+            <p>Email</p><br>
+            <input type="text" placeholder="Your Email address" style="width: 100%; height: 40px; padding: 10px;"><br><br>
+            <button style="background-color: rgb(233, 41, 41); width: 120px; height: 40px; color: white; font-size: 20px;">Subscribe</button>
         </div>
+
+        <div class="svnth">
+            <h1>Contact</h1><br>
+            <p>Let us book your next trip!</p><br>
+            <p><i class="fas fa-map-marker-alt"></i> Chicago, US</p>
+            <p><i class="fas fa-phone"></i>Phone: +00 151515</p>
+            <p><i class="fas fa-envelope"></i>Email: mail@mail.com</p>
+            <input type="text" placeholder="Name"> 
+            <input type="text" placeholder="Email">
+            <input type="text" placeholder="Message"><br><br>
+            <button style="background-color: black; color: white; padding: 10px; font-size: 15px;">SEND MESSAGE</button>
+        </div>
+
+        <div class="ftr" style="display: flex; flex-wrap: wrap; justify-content: center; width: 100%; height:300px; padding-top: 130px;">
+            <div style="font-size: 20px; color:  rgb(133, 119, 119); padding-bottom: 30px;">Find Us On</div>
+            <div style="flex-basis: 100%; height: 0;"></div>
+            <div><a href="file:///E:/NODE/js/first.html" target=""><i class="fab fa-facebook-square"></i></a></div>
+            <div><a href="file:///E:/NODE/js/first.html" target=""><i class="fab fa-instagram"></i></a></div>
+            <div><a href="file:///E:/NODE/js/first.html" target=""><i class="fab fa-snapchat"></i></a></div>
+            <div><a href="file:///E:/NODE/js/first.html" target=""><i class="fab fa-pinterest-p"></i></a></div>
+            <div><a href="file:///E:/NODE/js/first.html" target=""><i class="fab fa-twitter"></i></a></div>
+            <div style="padding-bottom: 20px;"><a href="file:///E:/NODE/js/first.html" target=""><i class="fab fa-linkedin-in"></i></a></div>
+            <div style="flex-basis: 100%; height: 0;"></div>
+        <div style="font-size: 20px; color:  rgb(133, 119, 119); padding-bottom: 120px;">Powered by w3.css</div></div>
     
 </body>
 </html>
