@@ -1,0 +1,116 @@
+*,*::after,*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    min-height: 100vh;
+    font-family: "Segoe UI,Arial,sans-serif";
+    max-width: 2000px;
+    min-width: 500px;
+  }
+.main
+{
+    background-color: khaki;
+    margin: auto;
+    width: 82%;
+    height: 2500px;
+}
+.Row1
+{
+    display: flex;
+}
+.Row1column1
+{
+    display: flex;
+    flex: 1;
+    background-color: black;
+    height: 700px;
+    font-family: "Segoe UI";
+    flex-direction: column;
+}
+.title
+{
+    height: 210px;
+    width: 100%;
+    color: white;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content
+{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar
+{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+}
+.navbar a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.DGry:hover
+{
+    background-color: #607d8b;
+}
+.Grn:hover
+{
+    background-color:rgb(50, 114, 111)
+}
+.Gry:hover
+{
+    background-color:gray;
+}
+.Brwn:hover
+{
+    background-color:rgb(129, 102, 102);
+}
+.navbar li
+{
+    padding: 15px;
+    margin: 5px;
+}
+.Row1column2
+{
+    flex: 1;
+    background-color:#607d8b!important;
+    height: 700px;
+
+}
+.title2
+{
+    height: 410px;
+    width: 100%;
+    color: white;
+    font-size: 35px;
+    display: flex;
+    margin-top: 85px;
+    align-items: center;
+    flex-direction: column;
+}
+.about-image
+{
+    background-image: url("https://www.w3schools.com/w3images/avatar3.png");
+    background-size: cover;
+    width: 45%;
+    height: 300px;
+    border-radius: 50%;
+}
+.content2
+{
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    padding: 30px;
+}
