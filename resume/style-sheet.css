@@ -206,6 +206,26 @@
     height: 700px;
     font-family: "Segoe UI";
 }
+.tabl
+{
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    border-spacing: 0px; 
+}
+.tablr th
+{
+    text-align: left;
+}
+.tablr td
+{
+    padding: 5px;
+}
+.bckgrnd td
+{
+    background-color: white;
+    color: black;
+}
 .Row3
 {
     display: flex;
@@ -223,6 +243,7 @@
     background-color:rgb(23, 146, 136);
     height: 700px;
     font-family: "Segoe UI";
+    padding: 30px;
 
 }
 .footer
@@ -235,4 +256,68 @@
     display: flex;
     align-items: center;
     font-size: 20px;
+}
+.swng-by
+{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+}
+.swngcntnt
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    height: 300px;
+    width: 100%;
+}
+.swngcntnt p
+{
+    font-size: 15px;
+    padding: 10px;
+}
+.contact
+{
+    width: 100%;
+    height: 50px;
+    font-size: 35px;
+    color: white;
+    margin-top: 50px;
+}
+.cntctp
+{
+    width: 100%;
+    height: 30px;
+    font-size: 17px;
+    color:lightgray;
+    margin-top: 20px;
+}
+.cntctd
+{
+    background-color: white;
+    width: 100%;
+    height: 330px;
+    padding: 20px;
+}
+.cntctd input
+{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+.cntctd button
+{
+    padding: 10px;
+    background-color:rgb(23, 146, 136);
+    border: none;
+    color: white;
+    font-size: 15px;
+    align-items: right;
 }
