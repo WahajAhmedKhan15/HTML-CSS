@@ -1,0 +1,90 @@
+*,*::after,*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    min-height: 100vh;
+    font-family: "Inconsolata", sans-serif;
+    max-width: 2000px;
+    min-width: 500px;
+  }
+  .main
+  {
+      position: relative;
+  } 
+  .slider
+  {
+      background-image: url("https://www.w3schools.com/w3images/profile_girl.jpg");
+      height: 100vh;
+      background-size: cover;
+      width: 40%;
+      background-position: center;
+      position: fixed !important;
+  }
+  .jumbotrn
+  {
+      height: 2000px;
+      width: 60%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      
+  }
+  .icon
+  {
+     right: 0;
+      position: fixed;
+  }
+  .icon i
+  {
+    font-size: 35px;
+    color: rgb(83, 80, 80);
+    padding: 20px;
+    background-color: white;
+  }
+  .icon i:hover
+  {
+      background-color: rgb(214, 214, 214);
+  }
+  .hdng
+  {
+    text-align: center;
+    margin-top: 90px;
+    font-family: "Consolas";
+
+  }
+  .hdng b
+  {
+      font-size: 75px;
+      padding: 10px;
+      font-weight: lighter;
+  }
+  .hdng p
+  {
+      font-size: 18px;
+      padding: 10px;
+      font-weight: lighter;
+  }
+  .hdng button
+  {
+      border: none;
+      height: 55px;
+      padding: 20px;
+      font-size: 15px;
+      font-weight: lighter;
+  }
+  .my-portfolio
+  {
+      margin-top: 50px;
+  }
+  .my-portfolio p
+  {
+      padding-bottom: 20px;
+      font-family: "Consolas";
+      color: rgb(124, 122, 122);
+      font-size: 30px;
+      font-weight: lighter;
+      margin: 20px;
+      border-bottom: 1px solid rgb(240, 236, 236);
+  }
