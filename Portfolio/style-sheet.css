@@ -24,7 +24,7 @@
   }
   .jumbotrn
   {
-      height: 2000px;
+      height: 6000px;
       width: 60%;
       position: absolute;
       top: 0;
@@ -87,4 +87,81 @@
       font-weight: lighter;
       margin: 20px;
       border-bottom: 1px solid rgb(240, 236, 236);
+  }
+  .portfolio-image
+  {
+      display: flex;
+  }
+  .column1
+  {
+      display: flex;
+      flex-direction: column;
+      flex: 0.5;
+  }
+  .imagea
+  {
+    height: 300px;
+    margin: 10px 20px 5px 20px;
+    background-image: url("https://www.w3schools.com/w3images/wedding.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .imageb
+  {
+    height: 600px;
+    margin: 10px 20px 5px 20px;
+    background-image: url("https://www.w3schools.com/w3images/rocks.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .imagec
+  {
+    height: 315px;
+    margin: 10px 20px 5px 20px;
+    background-image: url("https://www.w3schools.com/w3images/sailboat.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .column2
+  {
+      display: flex;
+      flex-direction: column;
+      flex: 0.5;
+  }
+  .imaged
+  {
+    height: 400px;
+    margin: 10px 20px 5px 0px;
+    background-image: url("https://www.w3schools.com/w3images/underwater.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .imagee
+  {
+    height: 300px;
+    margin: 10px 20px 5px 0px;
+    background-image: url("https://www.w3schools.com/w3images/chef.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .imagef
+  {
+    height: 250px;
+    margin: 10px 20px 5px 0px;
+    background-image: url("https://www.w3schools.com/w3images/wedding.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .imageg
+  {
+    height: 250px;
+    margin: 10px 20px 5px 0px;
+    background-image: url("https://www.w3schools.com/w3images/p6.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .about-text p
+  {
+      font-size: 15px;
+      margin: 20px;
   }
