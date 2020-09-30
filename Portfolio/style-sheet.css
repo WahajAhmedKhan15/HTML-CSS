@@ -447,10 +447,38 @@
 {
   background-color: rgb(214, 212, 212);
 }
-.footer
+.footer-main
 {
   margin-top: 40px;
   height: 200px;
   width: 100%;
   background-color: rgb(245, 245, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer
+{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  padding: 20px;
+}
+.footer i
+{
+  color: rgb(100, 98, 98);
+  padding: 3px;
+}
+.footer i:hover
+{
+  color: rgb(196, 196, 196);
+}
+.footer-content
+{
+  color: rgb(100, 98, 98);
+  font-weight: lighter;
+  font-size: 15px;
 }
