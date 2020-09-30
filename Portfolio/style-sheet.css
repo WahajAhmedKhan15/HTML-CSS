@@ -75,6 +75,10 @@
       font-size: 15px;
       font-weight: lighter;
   }
+  .hdng button:hover
+  {
+      background-color: rgb(197, 190, 190);
+  }
   .my-portfolio
   {
       margin-top: 50px;
@@ -243,6 +247,10 @@
       font-weight: lighter;
       margin: 20px;
   }
+  .submt:hover
+  {
+      background-color: rgb(197, 190, 190);
+  }
   .reputation
   {
       display: flex;
@@ -296,4 +304,91 @@
     background-image: url("https://www.w3schools.com/w3images/p6.jpg");
     background-size: cover;
     background-position: center;
+  }
+  .tabl1
+  {
+      flex: 0.5;
+      height: 500px;
+      margin-right: 20px ;
+      box-shadow:1px 5px 5px rgba(0, 0, 0,0.25);
+      list-style: none;
+      
+  }
+  .tabl1hdr
+  {
+      width: 100%;
+      font-size: 30px;
+      background-color: gray;
+      height: 100px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .tabl2hdr
+  {
+      width: 100%;
+      font-size: 30px;
+      background-color: black;
+      height: 100px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .row{
+    border-bottom: 1px solid rgb(167, 163, 163);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+  }
+  .row2 strong
+  {
+      font-size: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  .row2
+  {
+    border-bottom: 1px solid rgb(167, 163, 163);
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+  }
+  .row3 
+  {
+    background-color: rgb(243, 242, 243);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .row3 button
+  {
+      border: none;
+      padding: 20px;
+      background-color: white;
+      width: 120px;
+  }
+  .tabl2
+  {
+      flex: 0.5;
+      height: 500px;
+      box-shadow:1px 5px 5px rgba(0, 0, 0,0.25);
+  }
+  .tabl2:hover
+  {
+    box-shadow:1px 10px 10px rgba(0, 0, 0,0.25);
+  }
+  .tabl1:hover
+  {
+    box-shadow:1px 10px 10px rgba(0, 0, 0,0.25);
   }
