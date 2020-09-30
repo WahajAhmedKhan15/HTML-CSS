@@ -29,6 +29,7 @@
       position: absolute;
       top: 0;
       right: 0;
+      max-width: 950px;
       
   }
   .icon
@@ -164,4 +165,135 @@
   {
       font-size: 15px;
       margin: 20px;
+      color: rgb(124, 122, 122);
+      font-weight: lighter;
+      font-family: "Consolas";
+  }
+  .skills
+  {
+    padding-bottom: 20px;
+    font-family: "Consolas";
+    color: rgb(124, 122, 122);
+    font-size: 25px;
+    font-weight: lighter;
+    margin: 60px 20px 40px 20px;
+  }
+  .label
+  {
+      font-size: 15px;
+      margin: 20px 0px 10px 0px;
+      letter-spacing: 3px;
+
+  }
+  .lightgry
+  {
+      width: 100%;
+      background-color: lightgrey;
+      height: 25px;
+      font-size: 20px;
+  }
+  .drkgry
+  {
+    width: 95%;
+    background-color: rgb(92, 89, 89);
+    height: 25px;
+    font-size: 20px;
+    color: white;
+    text-align: center; 
+  }
+  .drkgry85
+  {
+    width: 85%;
+    background-color: rgb(92, 89, 89);
+    height: 25px;
+    font-size: 20px;
+    color: white;
+    text-align: center; 
+  }
+  .drkgry80
+  {
+    width: 80%;
+    background-color: rgb(92, 89, 89);
+    height: 25px;
+    font-size: 20px;
+    color: white;
+    text-align: center; 
+  }
+  .partner
+  {
+      height: 100px;
+      background-color: rgb(92, 89, 89);
+      margin: 20px;
+      display: flex;
+      color: white;
+      font-size: 25px;
+      justify-content: space-evenly;
+      text-align: center;
+      font-weight: lighter;
+  }
+  .partner p{
+    margin:auto;
+  }
+  .submt
+  {
+      border: none;
+      height: 55px;
+      padding: 20px;
+      font-size: 15px;
+      font-weight: lighter;
+      margin: 20px;
+  }
+  .reputation
+  {
+      display: flex;
+      flex-direction: column;
+  }
+  .flx
+  {
+      display: flex;
+  }
+  .content
+  {
+    margin: 60px 20px 0px 0px;
+    font-size: 15px;
+  }
+  .content1
+  {
+    margin: 30px 20px 0px 0px;
+    font-size: 15px;
+  }
+  .content2
+  {
+    margin: 30px 20px 0px 0px;
+    font-size: 15px;
+  }
+  .imageh
+  {
+    height: 100px;
+    width: 80px;
+    margin: 40px 20px 5px 0px;
+    border-radius: 50%;
+    background-image: url("https://www.w3schools.com/w3images/p6.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .imagei
+  {
+    height: 100px;
+    width: 80px;
+    margin: 10px 20px 5px 0px;
+    border-radius: 50%;
+    background-image: url("https://www.w3schools.com/w3images/p6.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  .imagej
+  {
+    height: 100px;
+    width: 80px;
+    margin: 10px 20px 5px 0px;
+    border-radius: 50%;
+    background-image: url("https://www.w3schools.com/w3images/p6.jpg");
+    background-size: cover;
+    background-position: center;
   }
