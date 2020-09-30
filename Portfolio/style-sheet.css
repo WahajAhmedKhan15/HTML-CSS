@@ -24,7 +24,7 @@
   }
   .jumbotrn
   {
-      height: 6000px;
+      height: 5100px;
       width: 60%;
       position: absolute;
       top: 0;
@@ -392,3 +392,65 @@
   {
     box-shadow:1px 10px 10px rgba(0, 0, 0,0.25);
   }
+  .contact p
+{
+  margin: 20px;
+  color: gray;
+  font-weight: lighter;
+}
+.contact i
+{
+  padding-right: 20px;
+  font-size: 30px;
+  color: gray;
+}
+.contact-image
+{
+  margin: 20px;
+  height: 500px;
+  background-image: url("https://www.w3schools.com/w3images/map.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(50%);
+}
+.b
+{
+  margin:60px 0px 10px 20px;
+  font-weight: lighter;
+  color: gray;
+  font-size: 15px;
+}
+.contact input
+{
+  width: 96%;
+  height: 50px;
+  padding: 10px; 
+  margin: 10px 0px 10px 20px ;
+  border: 1px solid rgb(214, 212, 212);
+  font-size: 17px;
+}
+.contct-button
+{
+  margin-left: 20px;
+  border: none;
+  font-size: 15px;
+  padding: 15px;
+  width: 200px;
+}
+.contct-button i
+{
+  font-size: 15px;
+  padding-right: 5px;
+  color: black;
+}
+.contct-button:hover
+{
+  background-color: rgb(214, 212, 212);
+}
+.footer
+{
+  margin-top: 40px;
+  height: 200px;
+  width: 100%;
+  background-color: rgb(245, 245, 245);
+}
